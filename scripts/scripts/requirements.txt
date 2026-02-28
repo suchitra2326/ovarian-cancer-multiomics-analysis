@@ -1,0 +1,13 @@
+# Python dependencies
+pandas
+numpy
+matplotlib
+scipy
+seaborn
+# R packages (install in R environment)
+# DESeq2
+#limma
+#edgeR
+#clusterProfiler
+#WGCNA
+#ggplot2

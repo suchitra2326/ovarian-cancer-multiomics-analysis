@@ -1,0 +1,69 @@
+<svg width="800" height="1400" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .box { fill: #f4f6f9; stroke: #1f3c88; stroke-width: 2; rx: 10; }
+    .text { font-family: Arial, sans-serif; font-size: 18px; fill: #1f2937; }
+    .title { font-size: 26px; font-weight: bold; fill: #111827; }
+    .arrow { stroke: #1f3c88; stroke-width: 2; marker-end: url(#arrowhead); }
+</style>
+
+<defs>
+  <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#1f3c88"></polygon>
+  </marker>
+</defs>
+
+<text x="400" y="60" text-anchor="middle" class="title">
+Multi-Omics Integration Pipeline in Ovarian Cancer
+</text>
+
+<!-- Boxes -->
+<rect x="150" y="120" width="500" height="80" class="box"></rect>
+<text x="400" y="160" text-anchor="middle" class="text">
+Data Acquisition (TCGA RNA-seq | GEO | Clinical Data)
+</text>
+
+<rect x="150" y="250" width="500" height="80" class="box"></rect>
+<text x="400" y="290" text-anchor="middle" class="text">
+Preprocessing &amp; QC (Normalization | Filtering)
+</text>
+
+<rect x="150" y="380" width="500" height="80" class="box"></rect>
+<text x="400" y="420" text-anchor="middle" class="text">
+Differential Expression (DESeq2 / limma | FDR &lt; 0.05)
+</text>
+
+<rect x="150" y="510" width="500" height="80" class="box"></rect>
+<text x="400" y="550" text-anchor="middle" class="text">
+Functional Enrichment (GO | KEGG | GSEA)
+</text>
+
+<rect x="150" y="640" width="500" height="80" class="box"></rect>
+<text x="400" y="680" text-anchor="middle" class="text">
+PPI Network Construction (STRING | Cytoscape)
+</text>
+
+<rect x="150" y="770" width="500" height="80" class="box"></rect>
+<text x="400" y="810" text-anchor="middle" class="text">
+Hub Gene Prioritization &amp; Clinical Correlation
+</text>
+
+<rect x="150" y="900" width="500" height="80" class="box"></rect>
+<text x="400" y="940" text-anchor="middle" class="text">
+Molecular Docking (Binding Energy Evaluation)
+</text>
+
+<rect x="150" y="1030" width="500" height="80" class="box"></rect>
+<text x="400" y="1070" text-anchor="middle" class="text">
+Molecular Dynamics Simulation (RMSD | Stability)
+</text>
+
+<!-- Arrows -->
+<line x1="400" y1="200" x2="400" y2="250" class="arrow"></line>
+<line x1="400" y1="330" x2="400" y2="380" class="arrow"></line>
+<line x1="400" y1="460" x2="400" y2="510" class="arrow"></line>
+<line x1="400" y1="590" x2="400" y2="640" class="arrow"></line>
+<line x1="400" y1="720" x2="400" y2="770" class="arrow"></line>
+<line x1="400" y1="850" x2="400" y2="900" class="arrow"></line>
+<line x1="400" y1="980" x2="400" y2="1030" class="arrow"></line>
+
+</svg>

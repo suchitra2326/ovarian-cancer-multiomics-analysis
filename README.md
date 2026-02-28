@@ -13,6 +13,7 @@ To identify clinically relevant hub genes in ovarian cancer through integrative 
 ## 📊 Dataset Sources
 - TCGA Ovarian Cancer (RNA-seq, mutation, methylation data)
 - GEO validation datasets
+- STRING database for PPI network
 
 Public data only. Raw datasets are not uploaded to this repository due to size constraints.
 
@@ -28,6 +29,14 @@ Public data only. Raw datasets are not uploaded to this repository due to size c
 6. Clinical correlation analysis
 7. Molecular docking of prioritized targets
 8. Molecular dynamics simulation for structural stability validation
+
+
+## Novelty
+1.Integrated multi-layer prioritization strategy combining transcriptomic differential expression, network topology centrality, clinical correlation, and structural validation in a unified framework rather than isolated analyses.
+2. Clinically stratified hub identification, prioritizing genes not only by expression significance but by prognostic association and network dominance.
+3. Bridgning systems with biology with structure-based druggability , extending beyond enrichment analysis to molecualr docking and dynamic stability validation.
+4. topology driven target selection, emphasizing fucntional centrality within protein interaction networks rather than fold change magnitude alone.
+5. Translational prioritization approach, enabling computational narrowing of therapeutic candidates before experimental validation.
 
 ---
 

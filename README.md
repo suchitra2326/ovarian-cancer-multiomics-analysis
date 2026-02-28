@@ -1,4 +1,8 @@
-# ovarian-cancer-multiomics-analysis
+![R](https://img.shields.io/badge/R-Statistical%20Computing-blue)
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-yellow)
+![TCGA](https://img.shields.io/badge/Data-TCGA-red)
+![Multi-Omics](https://img.shields.io/badge/Approach-Multi--Omics-green)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)# ovarian-cancer-multiomics-analysis
 # Ovarian Cancer Multi-Omics Integration Analysis
 
 ## 🔬 Objective

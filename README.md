@@ -68,3 +68,13 @@ Raw Data → DEG Analysis → Enrichment → Network Construction → Hub Gene S
 
 ## 📌 Status
 Pipeline structuring and reproducible workflow development in progress.
+
+## Data Availability
+
+All datasets used in this study were obtained from publicly available repositories:
+
+- TCGA Ovarian Serous Cystadenocarcinoma (RNA-seq and clinical data)
+- GEO datasets (accession numbers to be specified)
+- STRING database for protein–protein interaction data
+
+Processed intermediate files are generated through the provided scripts.
